@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<!--Meta not working-->
 <meta charset="utf-8">
     <title>{block:TagPage}{Tag} | {/block:TagPage} {block:SearchPage}{lang:Search results for SearchQuery} | {/block:SearchPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}{Title}</title>
     {block:Description}
