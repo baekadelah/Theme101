@@ -4,8 +4,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<meta charset="utf-8">
+    <title>{block:TagPage}{Tag} | {/block:TagPage} {block:SearchPage}{lang:Search results for SearchQuery} | {/block:SearchPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}{Title}</title>
+    {block:Description}
+    <meta name="description" content="{MetaDescription}" />
+    {/block:Description}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{Favicon}"/>
+    <link rel="alternate" type="application/rss+xml" href="{RSS}"/>
+    <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
+
+    <link rel="stylesheet" href="http://static.tumblr.com/xeccbfq/9Qenv9yn8/normalize.min.css" />
+    <link rel="stylesheet" href="http://static.tumblr.com/xeccbfq/lT5nwa5y4/theme.css" />
+
 <title>{Title}</title>
 <style>
+
+      /* TODO: JS: Grid layout from Chapter 4 */
+
+      /* TODO: JS: loading message from Chapter 4 */
+
+      /* TODO: Tumblr: Add CSS customization from Chapter 3 */
+
+
   header {
     background: url(http://dash.ga.co/assets/gene-bg.png);
   }
