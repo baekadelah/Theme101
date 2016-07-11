@@ -1,4 +1,4 @@
-# Theme101
+<!--Theme101-->
 <!--First Theme for Tumblr for practice.-->
 
 <!DOCTYPE html>
@@ -93,7 +93,6 @@
   </header>
   
 	{block:Posts}
-	<p>Posted on Tumblr</p>
 		{block:Text}
 		<div class="post">
 			{block:Title}
